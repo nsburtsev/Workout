@@ -21,6 +21,7 @@
 		13C9F1492A73F12700592359 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C9F1482A73F12700592359 /* TabBarController.swift */; };
 		13C9F14C2A73F34000592359 /* UIColor + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C9F14B2A73F33F00592359 /* UIColor + ext.swift */; };
 		13C9F14F2A73F3DC00592359 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C9F14E2A73F3DC00592359 /* Resources.swift */; };
+		13FB60BB2A7BE4220025CC19 /* SecondaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB60BA2A7BE4220025CC19 /* SecondaryButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		13C9F1482A73F12700592359 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		13C9F14B2A73F33F00592359 /* UIColor + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + ext.swift"; sourceTree = "<group>"; };
 		13C9F14E2A73F3DC00592359 /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
+		13FB60BA2A7BE4220025CC19 /* SecondaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +58,10 @@
 		13C6636C2A7A6D6F004CEB43 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				13C663762A7A7591004CEB43 /* Settings */,
-				13C663752A7A7585004CEB43 /* Progress */,
-				13C663742A7A757F004CEB43 /* Session */,
 				13C663732A7A7577004CEB43 /* Overview */,
+				13C663742A7A757F004CEB43 /* Session */,
+				13C663752A7A7585004CEB43 /* Progress */,
+				13C663762A7A7591004CEB43 /* Settings */,
 				13C663722A7A756C004CEB43 /* Base */,
 			);
 			path = Controllers;
@@ -78,6 +80,7 @@
 		13C663732A7A7577004CEB43 /* Overview */ = {
 			isa = PBXGroup;
 			children = (
+				13FB60B92A7BE3DD0025CC19 /* Views */,
 				13C9F1362A73EEA800592359 /* OverviewController.swift */,
 			);
 			path = Overview;
@@ -171,6 +174,14 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		13FB60B92A7BE3DD0025CC19 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				13FB60BA2A7BE4220025CC19 /* SecondaryButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -247,6 +258,7 @@
 				13C9F1492A73F12700592359 /* TabBarController.swift in Sources */,
 				13C9F1332A73EEA800592359 /* AppDelegate.swift in Sources */,
 				13C663782A7A75B0004CEB43 /* SessionController.swift in Sources */,
+				13FB60BB2A7BE4220025CC19 /* SecondaryButton.swift in Sources */,
 				13C6637A2A7A75E0004CEB43 /* ProgressController.swift in Sources */,
 				13C6636B2A7A68AD004CEB43 /* NavBarController.swift in Sources */,
 				13C9F14F2A73F3DC00592359 /* Resources.swift in Sources */,
