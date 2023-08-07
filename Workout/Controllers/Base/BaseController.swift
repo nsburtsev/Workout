@@ -30,11 +30,11 @@ class BaseController: UIViewController {
     }
     
     func navBarLeftButtonHandler() {
-        print("NavBar Right Button tapped")
+        
     }
     
     func navBarRightButtonHandler() {
-        print("NavBar Left Button tapped")
+        
     }
 }
 
