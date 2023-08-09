@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		134966932A83D39400D2857D /* BaseInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134966922A83D39400D2857D /* BaseInfoView.swift */; };
 		13610F0E2A7CDBEC00489377 /* OverviewNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13610F0D2A7CDBEC00489377 /* OverviewNavBar.swift */; };
 		13610F102A7CDC7900489377 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13610F0F2A7CDC7900489377 /* BaseView.swift */; };
 		136FC0602A8133E00032F616 /* WeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136FC05F2A8133E00032F616 /* WeekView.swift */; };
@@ -30,6 +31,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		134966922A83D39400D2857D /* BaseInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseInfoView.swift; sourceTree = "<group>"; };
 		13610F0D2A7CDBEC00489377 /* OverviewNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewNavBar.swift; sourceTree = "<group>"; };
 		13610F0F2A7CDC7900489377 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		136FC05F2A8133E00032F616 /* WeekView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekView.swift; sourceTree = "<group>"; };
@@ -74,6 +76,15 @@
 			path = Navigation;
 			sourceTree = "<group>";
 		};
+		1349668F2A83D35600D2857D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				13610F0F2A7CDC7900489377 /* BaseView.swift */,
+				134966922A83D39400D2857D /* BaseInfoView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		136FC05E2A8133CF0032F616 /* WeekView */ = {
 			isa = PBXGroup;
 			children = (
@@ -99,8 +110,8 @@
 		13C663722A7A756C004CEB43 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				1349668F2A83D35600D2857D /* Views */,
 				13C6636E2A7A6DA1004CEB43 /* BaseController.swift */,
-				13610F0F2A7CDC7900489377 /* BaseView.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -292,6 +303,7 @@
 				13C9F1332A73EEA800592359 /* AppDelegate.swift in Sources */,
 				13C663782A7A75B0004CEB43 /* SessionController.swift in Sources */,
 				13610F0E2A7CDBEC00489377 /* OverviewNavBar.swift in Sources */,
+				134966932A83D39400D2857D /* BaseInfoView.swift in Sources */,
 				13FB60BB2A7BE4220025CC19 /* SecondaryButton.swift in Sources */,
 				13C6637A2A7A75E0004CEB43 /* ProgressController.swift in Sources */,
 				13C6636B2A7A68AD004CEB43 /* NavBarController.swift in Sources */,
