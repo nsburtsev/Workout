@@ -65,6 +65,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1349668E2A83D08800D2857D /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				13C9F1482A73F12700592359 /* TabBarController.swift */,
+				13C6636A2A7A68AD004CEB43 /* NavBarController.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
 		136FC05E2A8133CF0032F616 /* WeekView */ = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +86,7 @@
 		13C6636C2A7A6D6F004CEB43 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				1349668E2A83D08800D2857D /* Navigation */,
 				13C663732A7A7577004CEB43 /* Overview */,
 				13C663742A7A757F004CEB43 /* Session */,
 				13C663752A7A7585004CEB43 /* Progress */,
@@ -89,8 +99,6 @@
 		13C663722A7A756C004CEB43 /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				13C9F1482A73F12700592359 /* TabBarController.swift */,
-				13C6636A2A7A68AD004CEB43 /* NavBarController.swift */,
 				13C6636E2A7A6DA1004CEB43 /* BaseController.swift */,
 				13610F0F2A7CDC7900489377 /* BaseView.swift */,
 			);

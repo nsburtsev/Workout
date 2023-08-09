@@ -14,7 +14,7 @@ extension WeekView {
         private let dateLabel = UILabel()
         private let stackView = UIStackView()
         
-        func configure(with index: Int, and name: String) {
+        func configureAppearance(with index: Int, and name: String) {
             let startOfWeek = Date().startOfWeek
             let currentDay = startOfWeek.goForward(to: index)
             let day = Calendar.current.component(.day, from: currentDay)
