@@ -13,7 +13,6 @@ class BaseInfoView: BaseView {
         let label = UILabel()
         label.font = R.Fonts.helveticaRegular(with: 13)
         label.textColor = R.Colors.inactive
-        
         return label
     }()
     
@@ -23,10 +22,19 @@ class BaseInfoView: BaseView {
         view.layer.borderColor = R.Colors.separator.cgColor
         view.layer.borderWidth = 1
         view.layer.cornerRadius = 5
-            
+        
         return view
     }()
     
+    init(with title: String? = nil, aligment: NSTextAlignment = .left) {
+        titleLabel.text = title?.uppercased()
+        titleLabel.textAlignment = aligment
+        super.init(frame: .zero)
+    }
+    
+    required init?(coder: NSCoder) {
+        super.init(frame: .zero)
+    }
 }
 
 extension BaseInfoView {
@@ -41,12 +49,15 @@ extension BaseInfoView {
     override func constraintViews() {
         super.constraintViews()
         
+        let contentTopAnchor: NSLayoutAnchor = titleLabel.text == nil ?  topAnchor : titleLabel.bottomAnchor
+        let contentTopOffset: CGFloat = titleLabel.text == nil ?  0 : 10
+        
         NSLayoutConstraint.activate([
             titleLabel.leadingAnchor.constraint(equalTo: leadingAnchor),
             titleLabel.topAnchor.constraint(equalTo: topAnchor),
             titleLabel.trailingAnchor.constraint(equalTo: trailingAnchor),
             
-            contentView.topAnchor.constraint(equalTo: titleLabel.bottomAnchor, constant: 10),
+            contentView.topAnchor.constraint(equalTo: contentTopAnchor, constant: contentTopOffset),
             contentView.leadingAnchor.constraint(equalTo: leadingAnchor),
             contentView.trailingAnchor.constraint(equalTo: trailingAnchor),
             contentView.bottomAnchor.constraint(equalTo: bottomAnchor)
