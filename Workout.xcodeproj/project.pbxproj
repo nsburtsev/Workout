@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		134966932A83D39400D2857D /* BaseInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134966922A83D39400D2857D /* BaseInfoView.swift */; };
+		134966932A83D39400D2857D /* WABaseInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134966922A83D39400D2857D /* WABaseInfoView.swift */; };
 		13610F0E2A7CDBEC00489377 /* OverviewNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13610F0D2A7CDBEC00489377 /* OverviewNavBar.swift */; };
 		13610F102A7CDC7900489377 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13610F0F2A7CDC7900489377 /* BaseView.swift */; };
 		136FC0602A8133E00032F616 /* WeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136FC05F2A8133E00032F616 /* WeekView.swift */; };
@@ -27,11 +27,11 @@
 		13C9F14C2A73F34000592359 /* UIColor + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C9F14B2A73F33F00592359 /* UIColor + ext.swift */; };
 		13C9F14F2A73F3DC00592359 /* R.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C9F14E2A73F3DC00592359 /* R.swift */; };
 		13DE6DA72A8282E100F91477 /* Date + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DE6DA62A8282E100F91477 /* Date + ext.swift */; };
-		13FB60BB2A7BE4220025CC19 /* SecondaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB60BA2A7BE4220025CC19 /* SecondaryButton.swift */; };
+		13FB60BB2A7BE4220025CC19 /* WAButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB60BA2A7BE4220025CC19 /* WAButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		134966922A83D39400D2857D /* BaseInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseInfoView.swift; sourceTree = "<group>"; };
+		134966922A83D39400D2857D /* WABaseInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WABaseInfoView.swift; sourceTree = "<group>"; };
 		13610F0D2A7CDBEC00489377 /* OverviewNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewNavBar.swift; sourceTree = "<group>"; };
 		13610F0F2A7CDC7900489377 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		136FC05F2A8133E00032F616 /* WeekView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekView.swift; sourceTree = "<group>"; };
@@ -53,7 +53,7 @@
 		13C9F14B2A73F33F00592359 /* UIColor + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + ext.swift"; sourceTree = "<group>"; };
 		13C9F14E2A73F3DC00592359 /* R.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R.swift; sourceTree = "<group>"; };
 		13DE6DA62A8282E100F91477 /* Date + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date + ext.swift"; sourceTree = "<group>"; };
-		13FB60BA2A7BE4220025CC19 /* SecondaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryButton.swift; sourceTree = "<group>"; };
+		13FB60BA2A7BE4220025CC19 /* WAButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				13610F0F2A7CDC7900489377 /* BaseView.swift */,
-				134966922A83D39400D2857D /* BaseInfoView.swift */,
+				134966922A83D39400D2857D /* WABaseInfoView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -110,6 +110,7 @@
 		13C663722A7A756C004CEB43 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				13FB60BA2A7BE4220025CC19 /* WAButton.swift */,
 				1349668F2A83D35600D2857D /* Views */,
 				13C6636E2A7A6DA1004CEB43 /* BaseController.swift */,
 			);
@@ -218,7 +219,6 @@
 			isa = PBXGroup;
 			children = (
 				136FC05E2A8133CF0032F616 /* WeekView */,
-				13FB60BA2A7BE4220025CC19 /* SecondaryButton.swift */,
 				13610F0D2A7CDBEC00489377 /* OverviewNavBar.swift */,
 			);
 			path = Views;
@@ -303,8 +303,8 @@
 				13C9F1332A73EEA800592359 /* AppDelegate.swift in Sources */,
 				13C663782A7A75B0004CEB43 /* SessionController.swift in Sources */,
 				13610F0E2A7CDBEC00489377 /* OverviewNavBar.swift in Sources */,
-				134966932A83D39400D2857D /* BaseInfoView.swift in Sources */,
-				13FB60BB2A7BE4220025CC19 /* SecondaryButton.swift in Sources */,
+				134966932A83D39400D2857D /* WABaseInfoView.swift in Sources */,
+				13FB60BB2A7BE4220025CC19 /* WAButton.swift in Sources */,
 				13C6637A2A7A75E0004CEB43 /* ProgressController.swift in Sources */,
 				13C6636B2A7A68AD004CEB43 /* NavBarController.swift in Sources */,
 				13C9F14F2A73F3DC00592359 /* R.swift in Sources */,

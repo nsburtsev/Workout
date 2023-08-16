@@ -8,8 +8,8 @@
 import UIKit
 
 class SessionController: BaseController {
-    private let timerView: BaseInfoView = {
-        let view = BaseInfoView(with: "Test", aligment: .center)
+    private let timerView: WABaseInfoView = {
+        let view = WABaseInfoView(with: "Test", buttonTitle: "Test Button".uppercased())
         
         return view
     }()
