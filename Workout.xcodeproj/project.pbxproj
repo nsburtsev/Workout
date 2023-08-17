@@ -18,6 +18,8 @@
 		13C663782A7A75B0004CEB43 /* SessionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C663772A7A75B0004CEB43 /* SessionController.swift */; };
 		13C6637A2A7A75E0004CEB43 /* ProgressController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C663792A7A75E0004CEB43 /* ProgressController.swift */; };
 		13C6637C2A7A75EE004CEB43 /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C6637B2A7A75EE004CEB43 /* SettingsController.swift */; };
+		13C9AA242A8CBF7D008A3759 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C9AA232A8CBF7D008A3759 /* TimerView.swift */; };
+		13C9AA272A8CC047008A3759 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C9AA262A8CC047008A3759 /* ProgressView.swift */; };
 		13C9F1332A73EEA800592359 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C9F1322A73EEA800592359 /* AppDelegate.swift */; };
 		13C9F1352A73EEA800592359 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C9F1342A73EEA800592359 /* SceneDelegate.swift */; };
 		13C9F1372A73EEA800592359 /* OverviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C9F1362A73EEA800592359 /* OverviewController.swift */; };
@@ -42,6 +44,8 @@
 		13C663772A7A75B0004CEB43 /* SessionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionController.swift; sourceTree = "<group>"; };
 		13C663792A7A75E0004CEB43 /* ProgressController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressController.swift; sourceTree = "<group>"; };
 		13C6637B2A7A75EE004CEB43 /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
+		13C9AA232A8CBF7D008A3759 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		13C9AA262A8CC047008A3759 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
 		13C9F12F2A73EEA800592359 /* Workout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Workout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13C9F1322A73EEA800592359 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		13C9F1342A73EEA800592359 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -129,6 +133,7 @@
 		13C663742A7A757F004CEB43 /* Session */ = {
 			isa = PBXGroup;
 			children = (
+				13C9AA222A8CBF66008A3759 /* Views */,
 				13C663772A7A75B0004CEB43 /* SessionController.swift */,
 			);
 			path = Session;
@@ -148,6 +153,23 @@
 				13C6637B2A7A75EE004CEB43 /* SettingsController.swift */,
 			);
 			path = Settings;
+			sourceTree = "<group>";
+		};
+		13C9AA222A8CBF66008A3759 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				13C9AA252A8CC02A008A3759 /* Timer */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		13C9AA252A8CC02A008A3759 /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				13C9AA232A8CBF7D008A3759 /* TimerView.swift */,
+				13C9AA262A8CC047008A3759 /* ProgressView.swift */,
+			);
+			path = Timer;
 			sourceTree = "<group>";
 		};
 		13C9F1262A73EEA800592359 = {
@@ -304,6 +326,8 @@
 				13C663782A7A75B0004CEB43 /* SessionController.swift in Sources */,
 				13610F0E2A7CDBEC00489377 /* OverviewNavBar.swift in Sources */,
 				134966932A83D39400D2857D /* WABaseInfoView.swift in Sources */,
+				13C9AA242A8CBF7D008A3759 /* TimerView.swift in Sources */,
+				13C9AA272A8CC047008A3759 /* ProgressView.swift in Sources */,
 				13FB60BB2A7BE4220025CC19 /* WAButton.swift in Sources */,
 				13C6637A2A7A75E0004CEB43 /* ProgressController.swift in Sources */,
 				13C6636B2A7A68AD004CEB43 /* NavBarController.swift in Sources */,
