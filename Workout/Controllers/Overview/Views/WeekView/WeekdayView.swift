@@ -17,7 +17,7 @@ extension WeekView {
         func configureAppearance(with index: Int, and name: String) {
             let startOfWeek = Date().startOfWeek
             let currentDay = startOfWeek.goForward(to: index)
-            let day = Calendar.current.component(.day, from: currentDay)
+            let day = Date.calendar.component(.day, from: currentDay)
             
             let isTooday = currentDay.stripTime() == Date().stripTime()
             
