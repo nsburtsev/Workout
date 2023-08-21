@@ -109,8 +109,6 @@ extension TimerView {
                 angle -= 1 / 6
             }
             
-            
-            
             layer.addSublayer(defaultCircleLayer)
             layer.addSublayer(circleLayer)
             layer.addSublayer(bigDotLayer)
