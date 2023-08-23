@@ -65,7 +65,8 @@ final class TimerView: WABaseInfoView {
     private var timerProgress: CGFloat = 0
     private var timerDuration = 0.0
     
-    public var state: TimerState = .isStopped
+    var state: TimerState = .isStopped
+    var callBack: (() -> Void)?
     
     func configure(with duration: Double, progress: Double) {
         timerDuration = duration

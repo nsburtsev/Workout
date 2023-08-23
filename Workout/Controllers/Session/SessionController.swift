@@ -10,7 +10,7 @@ import UIKit
 class SessionController: WABaseController {
     private let timerView = TimerView()
     
-    private let timerDuration = 3615.0
+    private let timerDuration = 5.0
     
     override func navBarLeftButtonHandler() {
         if timerView.state == .isStopped {
@@ -21,8 +21,10 @@ class SessionController: WABaseController {
         
         timerView.state = timerView.state == .isRunning ? .isStopped : .isRunning
         
-        setTitleForNavBarButton(timerView.state == .isRunning ? R.Strings.Session.navBarPause : R.Strings.Session.navBarStart,
-                                at: .left)
+        addNavBarButton(
+            at: .left,
+            with: timerView.state == .isRunning ? R.Strings.Session.navBarPause : R.Strings.Session.navBarStart
+        )
     }
     
     override func navBarRightButtonHandler() {
@@ -60,6 +62,9 @@ extension SessionController {
         addNavBarButton(at: .right, with: R.Strings.Session.navBarFinish)
         
         timerView.configure(with: timerDuration, progress: 0)
+        timerView.callBack = { [weak self] in
+            self?.navBarRightButtonHandler()
+        }
     }
 }
 
