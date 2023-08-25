@@ -45,12 +45,22 @@ enum R {
         }
         
         enum Session {
-            static let navBarStart = "Start   "
+            static let navBarStart = "Start"
             static let navBarPause = "Pause"
             static let navBarFinish = "Finish"
             
             static let elapsedTime = "Elapsed Time"
             static let remainingTime = "Remaining Time"
+            static let completed = "Completed"
+            static let remaining = "Remaining"
+            
+            static let workoutStats = "Workout stats"
+            static let averagePave = "Average pace"
+            static let heartRate = "Heart rate"
+            static let totalDistance = "Total distance"
+            static let totalSteps = "Total steps"
+            
+            static let stepsCounter = "Steps Counter"
         }
         
         enum Progress {
@@ -78,6 +88,14 @@ enum R {
             static var downArrow = UIImage(named: "down_arrow")
             static var add = UIImage(named: "add_button")
 
+        }
+        enum Session {
+            enum Stats {
+                static var heartRate = UIImage(named: "stats_heartRate")
+                static var averagePace = UIImage(named: "stats_averagePace")
+                static var totalSteps = UIImage(named: "stats_totalSteps")
+                static var totalDistance = UIImage(named: "stats_totalDistance")
+            }
         }
     }
     

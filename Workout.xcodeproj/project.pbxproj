@@ -12,6 +12,8 @@
 		13610F102A7CDC7900489377 /* WABaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13610F0F2A7CDC7900489377 /* WABaseView.swift */; };
 		136FC0602A8133E00032F616 /* WeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136FC05F2A8133E00032F616 /* WeekView.swift */; };
 		136FC0622A8135B80032F616 /* WeekdayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136FC0612A8135B80032F616 /* WeekdayView.swift */; };
+		1390B94F2A98C0700004E7C8 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1390B94E2A98C0700004E7C8 /* StatsView.swift */; };
+		1390B9522A98C0C00004E7C8 /* StatsItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1390B9512A98C0C00004E7C8 /* StatsItemView.swift */; };
 		13C6636B2A7A68AD004CEB43 /* NavBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C6636A2A7A68AD004CEB43 /* NavBarController.swift */; };
 		13C6636F2A7A6DA1004CEB43 /* WABaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C6636E2A7A6DA1004CEB43 /* WABaseController.swift */; };
 		13C663712A7A7456004CEB43 /* UIView + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C663702A7A7456004CEB43 /* UIView + ext.swift */; };
@@ -39,6 +41,8 @@
 		13610F0F2A7CDC7900489377 /* WABaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WABaseView.swift; sourceTree = "<group>"; };
 		136FC05F2A8133E00032F616 /* WeekView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekView.swift; sourceTree = "<group>"; };
 		136FC0612A8135B80032F616 /* WeekdayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekdayView.swift; sourceTree = "<group>"; };
+		1390B94E2A98C0700004E7C8 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		1390B9512A98C0C00004E7C8 /* StatsItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsItemView.swift; sourceTree = "<group>"; };
 		13C6636A2A7A68AD004CEB43 /* NavBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarController.swift; sourceTree = "<group>"; };
 		13C6636E2A7A6DA1004CEB43 /* WABaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WABaseController.swift; sourceTree = "<group>"; };
 		13C663702A7A7456004CEB43 /* UIView + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + ext.swift"; sourceTree = "<group>"; };
@@ -101,6 +105,30 @@
 			path = WeekView;
 			sourceTree = "<group>";
 		};
+		1390B94C2A98A45B0004E7C8 /* Stats */ = {
+			isa = PBXGroup;
+			children = (
+				1390B9502A98C0A40004E7C8 /* Views */,
+				1390B94E2A98C0700004E7C8 /* StatsView.swift */,
+			);
+			path = Stats;
+			sourceTree = "<group>";
+		};
+		1390B94D2A98A4620004E7C8 /* Steps */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Steps;
+			sourceTree = "<group>";
+		};
+		1390B9502A98C0A40004E7C8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1390B9512A98C0C00004E7C8 /* StatsItemView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		13C6636C2A7A6D6F004CEB43 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -161,6 +189,8 @@
 			isa = PBXGroup;
 			children = (
 				13C9AA252A8CC02A008A3759 /* Timer */,
+				1390B94C2A98A45B0004E7C8 /* Stats */,
+				1390B94D2A98A4620004E7C8 /* Steps */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -334,11 +364,13 @@
 				13FB60BB2A7BE4220025CC19 /* WAButton.swift in Sources */,
 				13C6637A2A7A75E0004CEB43 /* ProgressController.swift in Sources */,
 				13C6636B2A7A68AD004CEB43 /* NavBarController.swift in Sources */,
+				1390B9522A98C0C00004E7C8 /* StatsItemView.swift in Sources */,
 				13C9F14F2A73F3DC00592359 /* Resources.swift in Sources */,
 				13DF8E082A972581008CDBE3 /* PercentView.swift in Sources */,
 				13C9F14C2A73F34000592359 /* UIColor + ext.swift in Sources */,
 				13610F102A7CDC7900489377 /* WABaseView.swift in Sources */,
 				136FC0622A8135B80032F616 /* WeekdayView.swift in Sources */,
+				1390B94F2A98C0700004E7C8 /* StatsView.swift in Sources */,
 				13C6636F2A7A6DA1004CEB43 /* WABaseController.swift in Sources */,
 				13C9F1352A73EEA800592359 /* SceneDelegate.swift in Sources */,
 			);
