@@ -12,6 +12,7 @@
 		13610F102A7CDC7900489377 /* WABaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13610F0F2A7CDC7900489377 /* WABaseView.swift */; };
 		136FC0602A8133E00032F616 /* WeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136FC05F2A8133E00032F616 /* WeekView.swift */; };
 		136FC0622A8135B80032F616 /* WeekdayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136FC0612A8135B80032F616 /* WeekdayView.swift */; };
+		138E5C9D2A9F2C1D000D384F /* XAxisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138E5C9C2A9F2C1D000D384F /* XAxisView.swift */; };
 		1390B94F2A98C0700004E7C8 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1390B94E2A98C0700004E7C8 /* StatsView.swift */; };
 		1390B9522A98C0C00004E7C8 /* StatsItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1390B9512A98C0C00004E7C8 /* StatsItemView.swift */; };
 		13C6636B2A7A68AD004CEB43 /* NavBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C6636A2A7A68AD004CEB43 /* NavBarController.swift */; };
@@ -36,6 +37,9 @@
 		13D8CC512A9CBBB000574BF3 /* DailyPerformanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D8CC502A9CBBB000574BF3 /* DailyPerformanceView.swift */; };
 		13DE6DA72A8282E100F91477 /* Date + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DE6DA62A8282E100F91477 /* Date + ext.swift */; };
 		13DF8E082A972581008CDBE3 /* PercentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DF8E072A972581008CDBE3 /* PercentView.swift */; };
+		13E490A92A9E2D3500D17CF2 /* MonthlyPerformanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E490A82A9E2D3400D17CF2 /* MonthlyPerformanceView.swift */; };
+		13E490AD2A9E62FC00D17CF2 /* WAChartsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E490AC2A9E62FC00D17CF2 /* WAChartsView.swift */; };
+		13E490AF2A9E650300D17CF2 /* YAxisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E490AE2A9E650300D17CF2 /* YAxisView.swift */; };
 		13FB60BB2A7BE4220025CC19 /* WAButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FB60BA2A7BE4220025CC19 /* WAButton.swift */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +49,7 @@
 		13610F0F2A7CDC7900489377 /* WABaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WABaseView.swift; sourceTree = "<group>"; };
 		136FC05F2A8133E00032F616 /* WeekView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekView.swift; sourceTree = "<group>"; };
 		136FC0612A8135B80032F616 /* WeekdayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekdayView.swift; sourceTree = "<group>"; };
+		138E5C9C2A9F2C1D000D384F /* XAxisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XAxisView.swift; sourceTree = "<group>"; };
 		1390B94E2A98C0700004E7C8 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
 		1390B9512A98C0C00004E7C8 /* StatsItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsItemView.swift; sourceTree = "<group>"; };
 		13C6636A2A7A68AD004CEB43 /* NavBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarController.swift; sourceTree = "<group>"; };
@@ -71,6 +76,9 @@
 		13D8CC502A9CBBB000574BF3 /* DailyPerformanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyPerformanceView.swift; sourceTree = "<group>"; };
 		13DE6DA62A8282E100F91477 /* Date + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date + ext.swift"; sourceTree = "<group>"; };
 		13DF8E072A972581008CDBE3 /* PercentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PercentView.swift; sourceTree = "<group>"; };
+		13E490A82A9E2D3400D17CF2 /* MonthlyPerformanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyPerformanceView.swift; sourceTree = "<group>"; };
+		13E490AC2A9E62FC00D17CF2 /* WAChartsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAChartsView.swift; sourceTree = "<group>"; };
+		13E490AE2A9E650300D17CF2 /* YAxisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YAxisView.swift; sourceTree = "<group>"; };
 		13FB60BA2A7BE4220025CC19 /* WAButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -97,6 +105,7 @@
 		1349668F2A83D35600D2857D /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				13E490AA2A9E62E100D17CF2 /* WAChartsView */,
 				13D8CC452A9CA8B800574BF3 /* WABarsView */,
 				13D8CC472A9CA91500574BF3 /* WABarsView.swift */,
 				13FB60BA2A7BE4220025CC19 /* WAButton.swift */,
@@ -309,9 +318,44 @@
 		13D8CC4F2A9CBB9700574BF3 /* Performance */ = {
 			isa = PBXGroup;
 			children = (
-				13D8CC502A9CBBB000574BF3 /* DailyPerformanceView.swift */,
+				13E490A52A9E2CCA00D17CF2 /* DailyPerformanceView */,
+				13E490A62A9E2CE200D17CF2 /* MonthlyPerformanceView */,
 			);
 			path = Performance;
+			sourceTree = "<group>";
+		};
+		13E490A52A9E2CCA00D17CF2 /* DailyPerformanceView */ = {
+			isa = PBXGroup;
+			children = (
+				13D8CC502A9CBBB000574BF3 /* DailyPerformanceView.swift */,
+			);
+			path = DailyPerformanceView;
+			sourceTree = "<group>";
+		};
+		13E490A62A9E2CE200D17CF2 /* MonthlyPerformanceView */ = {
+			isa = PBXGroup;
+			children = (
+				13E490A82A9E2D3400D17CF2 /* MonthlyPerformanceView.swift */,
+			);
+			path = MonthlyPerformanceView;
+			sourceTree = "<group>";
+		};
+		13E490AA2A9E62E100D17CF2 /* WAChartsView */ = {
+			isa = PBXGroup;
+			children = (
+				13E490AB2A9E62EC00D17CF2 /* Views */,
+				13E490AC2A9E62FC00D17CF2 /* WAChartsView.swift */,
+			);
+			path = WAChartsView;
+			sourceTree = "<group>";
+		};
+		13E490AB2A9E62EC00D17CF2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				13E490AE2A9E650300D17CF2 /* YAxisView.swift */,
+				138E5C9C2A9F2C1D000D384F /* XAxisView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		13FB60B92A7BE3DD0025CC19 /* Views */ = {
@@ -398,17 +442,21 @@
 				13C6637C2A7A75EE004CEB43 /* SettingsController.swift in Sources */,
 				13C9F1372A73EEA800592359 /* OverviewController.swift in Sources */,
 				13C663712A7A7456004CEB43 /* UIView + ext.swift in Sources */,
+				13E490A92A9E2D3500D17CF2 /* MonthlyPerformanceView.swift in Sources */,
 				13C9F1492A73F12700592359 /* TabBarController.swift in Sources */,
 				13C9F1332A73EEA800592359 /* AppDelegate.swift in Sources */,
 				13D8CC4D2A9CAB1900574BF3 /* WABarView.swift in Sources */,
 				13C663782A7A75B0004CEB43 /* SessionController.swift in Sources */,
 				13D8CC512A9CBBB000574BF3 /* DailyPerformanceView.swift in Sources */,
+				13E490AD2A9E62FC00D17CF2 /* WAChartsView.swift in Sources */,
 				13610F0E2A7CDBEC00489377 /* OverviewNavBar.swift in Sources */,
 				134966932A83D39400D2857D /* WABaseInfoView.swift in Sources */,
 				13C9AA242A8CBF7D008A3759 /* TimerView.swift in Sources */,
 				13C9AA272A8CC047008A3759 /* ProgressView.swift in Sources */,
 				13FB60BB2A7BE4220025CC19 /* WAButton.swift in Sources */,
 				13D8CC442A9CA71100574BF3 /* StepsView.swift in Sources */,
+				138E5C9D2A9F2C1D000D384F /* XAxisView.swift in Sources */,
+				13E490AF2A9E650300D17CF2 /* YAxisView.swift in Sources */,
 				13C6637A2A7A75E0004CEB43 /* ProgressController.swift in Sources */,
 				13C6636B2A7A68AD004CEB43 /* NavBarController.swift in Sources */,
 				1390B9522A98C0C00004E7C8 /* StatsItemView.swift in Sources */,
