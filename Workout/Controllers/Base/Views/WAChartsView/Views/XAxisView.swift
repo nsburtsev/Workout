@@ -11,7 +11,7 @@ final class XAxisView: WABaseView {
     
     private let stackView: UIStackView = {
         let view = UIStackView()
-        view.distribution = .fillEqually
+        view.distribution = .equalSpacing
         return view
     }()
 
