@@ -95,6 +95,13 @@ enum R {
             static var add = UIImage(named: "add_button")
 
         }
+        
+        enum Overview {
+            static let checkmarkChecked = UIImage(named: "checkmark_checked")
+            static let checkmark = UIImage(named: "checkmark")
+            static let rightArrow = UIImage(named: "right_arrow")
+        }
+        
         enum Session {
             enum Stats {
                 static var heartRate = UIImage(named: "stats_heartRate")
